@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  nav {
+    float: left;
+    width: 30%;
+    height: 900px;
+    background: #ccc;
+    padding: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    background-image: url(https://th.bing.com/th/id/OIP.BazJDiJhTTHND5gLuoZ2xwHaNx?w=183&h=340&c=7&r=0&o=5&dpr=2.5&pid=1.7);
+}nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: black;
+    height: 900px; 
+  }
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 1500%;
+      height: auto;
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 5px;
+}
+header, footer {
+    background-color: rgb(6, 6, 129);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #4CAF50;
+    font-size: x-large;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+div,p,ul{
+color: white;
+}
